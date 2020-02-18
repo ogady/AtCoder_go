@@ -9,8 +9,8 @@ import (
 )
 
 func main() {
-	var cnt int
-	var n int
+	var cnt, n int
+
 	var ns []int
 	var existOdd bool
 
