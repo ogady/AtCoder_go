@@ -18,26 +18,26 @@ func StrStdin() string {
 	return strings.TrimSpace(scanner.Text())
 }
 
-// Int64Stdin 1つの符号付き整数値(64bit)入力
+// IntStdin 1つの符号付き整数値入力
 // Exapmle:
 // ------------------
 // 1000000007
 // ------------------
-func Int64Stdin() int64 {
+func IntStdin() int {
 	stringInput := StrStdin()
 	num, _ := strconv.ParseInt(strings.TrimSpace(stringInput), 10, 64)
-	return num
+	return int(num)
 }
 
-// Uint64Stdin 1つの符号なし整数値(64bit)入力
+// UintStdin 1つの符号なし整数値入力
 // Exapmle:
 // ------------------
 // 1000000007
 // ------------------
-func Uint64Stdin() uint64 {
+func UintStdin() uint {
 	stringInput := StrStdin()
 	num, _ := strconv.ParseUint(strings.TrimSpace(stringInput), 10, 64)
-	return num
+	return uint(num)
 }
 
 // Float64Stdin 1つの符号付き浮動小数点数(64bit)の入力
