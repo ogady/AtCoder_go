@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-// https://atcoder.jp/contests/abc106/tasks/abc106_b
+// https://atcoder.jp/contests/abc122/tasks/abc122_b
 
 func main() {
 
