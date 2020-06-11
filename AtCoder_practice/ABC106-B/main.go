@@ -25,9 +25,9 @@ func main() {
 					cnt++
 				}
 			}
-		}
-		if cnt == 8 {
-			result++
+			if cnt == 8 {
+				result++
+			}
 		}
 	}
 
