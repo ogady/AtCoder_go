@@ -45,7 +45,7 @@ func StrStdin() string {
 	return strings.TrimSpace(scanner.Text())
 }
 
-// IntStdin 1つの符号付き整数値(64bit)入力
+// IntStdin 1つの符号付き整数値入力
 // Exapmle:
 // ------------------
 // 1000000007
@@ -56,7 +56,7 @@ func IntStdin() int {
 	return int(num)
 }
 
-// UintStdin 1つの符号なし整数値(64bit)入力
+// UintStdin 1つの符号なし整数値入力
 // Exapmle:
 // ------------------
 // 1000000007
